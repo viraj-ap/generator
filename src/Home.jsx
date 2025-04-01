@@ -18,7 +18,9 @@ const Home = () => {
             <br /> Try our Ghibli Generator! It actually works.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+        
+        {/* Desktop view - all three images */}
+        <div className="hidden md:grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           <div className="rounded-lg overflow-hidden shadow-lg">
             <img
               src="img2.webp"
@@ -52,6 +54,21 @@ const Home = () => {
             </div>
           </div>
         </div>
+        
+        {/* Mobile view - only img1 */}
+        <div className="md:hidden flex justify-center mb-12">
+          <div className="rounded-lg overflow-hidden shadow-lg max-w-xs">
+            <img
+              src="img1.webp"
+              alt="Generated portrait"
+              className="w-full h-64 object-cover"
+            />
+            <div className="bg-white bg-opacity-10 p-4">
+              <h3 className="text-white font-medium">Portrait</h3>
+            </div>
+          </div>
+        </div>
+
         <div className="text-center">
           <button
             onClick={handleClick}
