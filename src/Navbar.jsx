@@ -9,7 +9,7 @@ const Navbar = () => {
           <div>
             <img className="h-14 cursor-pointer" src="logo.png" alt="" />
           </div>
-          <div className="text-white text-xl font-bold">Ghibli Generator</div>
+          <div className="text-white md:text-xl text-xs font-bold">Ghibli Generator</div>
         </div>
       </nav>
     </>
