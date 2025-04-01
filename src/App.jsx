@@ -12,7 +12,7 @@ const router = createBrowserRouter([
 function App() {
   return (
     <>
-      <div className="mb-12">
+      <div className="">
         <Navbar />
       </div>
       <div>

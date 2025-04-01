@@ -14,8 +14,8 @@ const Home = () => {
             Ghibli Generator
           </h2>
           <p className="text-lg text-gray-200 max-w-2xl mx-auto">
-            Tired of ChatGPT and other AI tools? Try our Ghibli Generator! It
-            actually works.
+            Tired of ChatGPT and other AI tools?
+            <br /> Try our Ghibli Generator! It actually works.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
